@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./img/Favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="../task4/style/style.css"> -->
+    <title>Mighty Ducks Hockey League</title>
+</head>
+
+<body>
+
+    <form action="./showData.html" method="get">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Player's First Name:</label>
+            <input type="text" name="Nombre">
+
+            <label>Last Name:</label>
+            <input type="text" name="LastName"><br><br>
+
+            <label>Street Address:</label>
+            <input type="text" name="StreetAddress"><br><br>
+
+            <label>City:</label>
+            <input type="text" name="City">
+
+            <label>Zip Code:</label>
+            <input type="number" name="ZipCode"><br><br>
+
+            <label>Birth Date:</label>
+            <input type="date" name="BirthDate">
+
+            <label>Gender:</label>
+            <input type="checkbox" name="Gender" value="Female">Female
+            <input type="checkbox" name="Gender" value="Male">Male<br><br>
+
+            <label>Grade:</label>
+            <input type="checkbox" name="Grade" value="Pre-School">Pre-School
+            <input type="checkbox" name="Grade" value="1st">1st
+            <input type="checkbox" name="Grade" value="2nd">2nd
+            <input type="checkbox" name="Grade" value="3rd">3rd
+            <input type="checkbox" name="Grade" value="4th">4th
+            <input type="checkbox" name="Grade" value="5th">5th<br><br>
+        </fieldset><br>
+
+        <fieldset>
+            <div>
+                <h3>Which elementary school do you live near?</h3>
+                <h4>Closest School:</h4>
+                <ul style="list-style: none;">
+                    <li><input type="checkbox" name="AJ Katzenmaier" value="AJ Katzenmaier">AJ Katzenmaier</li>
+                    <li><input type="checkbox" name="Greenbay" value="Greenbay">Greenbay</li>
+                    <li><input type="checkbox" name="Howard A Yeager" value="Howard A Yeager">Howard A Yeager</li>
+                    <li><input type="checkbox" name="Marjorie P. Hart" value="Marjorie P. Hart">Marjorie P. Hart
+                    </li>
+                    <li><input type="checkbox" name="North Elementary" value="North Elementary">North Elementary
+                    </li>
+                    <li><input type="checkbox" name="South Elementary" value="South Elementary">South Elementary
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <ul style="list-style: none;">
+                    <li><input type="checkbox" name="Forward" value="Forward">Forward</li>
+                    <li><input type="checkbox" name="Defense" value="Defense">Defense</li>
+                    <li><input type="checkbox" name="Midfield" value="Midfield">Midfield</li>
+                    <li><input type="checkbox" name="Goalkeeper" value="Goalkeeper">Goalkeeper</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Uniform Size:</h3>
+                <!-- Es correcto (?) -->
+                <ul style="list-style: none;">
+                    <li><input type="checkbox" name="Youth Small" value="Youth Small">Youth Small</li>
+                    <li><input type="checkbox" name="Youth Medium" value="Youth Medium">Youth Medium</li>
+                    <li><input type="checkbox" name="Youth Large" value="Youth Large">Youth Large</li>
+                    <li><input type="checkbox" name="Small" value="Small">Small</li>
+                    <li><input type="checkbox" name="Medium" value="Medium">Medium</li>
+                    <li><input type="checkbox" name="Large" value="Large">Large</li>
+                    <li><input type="checkbox" name="Extra-Large" value="Extra-Large">Extra-Large</li>
+                </ul>
+            </div>
+        </fieldset><br>
+
+        <Fieldset>
+            <legend><strong>Permission to Play</strong></legend>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injur
+                associated
+                with hockey and in consideration for the "League" accepting the registrant for it hockey programs
+                and
+                activities, I hereby release, discharge, and/or otherwise indemnify MDHL their employees and
+                associated
+                personnel and volunteers, including the facilities used fo practices and games, against any claim by
+                or on
+                behalf of the registrant as a result of the registrant's participation in the programand/orbeing
+                transported
+                to or from MDHL sponsore activities, which transportation
+                By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
+                acknowledge that
+                I have read the cancellation policy and agree to its terms.</p>
+
+            <label>Parent/GuardianSignature:</label>
+            <input type="text" name="Parent/GuardianSignature"><br><br>
+            <label for="">Date</label>
+            <input type="date" name="Date" value="Date">
+
+        </Fieldset><br>
+
+        <button type="submit" style="float: right;">Enviar formulario</button><br>
+    </form>
+
+</body>
+
+</html>

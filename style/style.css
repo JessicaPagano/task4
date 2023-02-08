@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2px;
+    padding: 10px 5px;
+    background-color: black;
+    flex-wrap: wrap;
+
+}
+
+nav a {
+    padding: 10px 5px;
+    margin: 2px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: #ffff81;
+    font-family: 'Aboreto', cursive;
+    /*cambiar estilo de letra */
+}
+
+/* Estilo del Banner (T.T) */
+
+.Conteiner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 8px black;
+    /* no quiero tocar mas AAAAA! */
+}
+
+.Conteiner img {
+    width: 100%;
+    height: 100%;
+    /* no se toca u.u */
+}
+
+.Conteiner h1 {
+    font-size: 60px;
+    color: #ffff81;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px black;
+    /* se encuentra listo ? */
+}
+
+/* ------------------- */
+/*Estilo del logo (?  */
+
+.logo {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin: 2px;
+    padding: 5px;
+    height: 70px;
+    width: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.logo h2 {
+    text-align: center;
+    color: #FFBA14;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1.1px white;
+}
+
+/* ----------------------------------- */
+/* Texto del MAIN(About MDHL) e IMAGEN*/
+
+.conteiner-Img {
+    width: 100%;
+    height: max-content;
+    border: 2px solid black;
+
+}
+
+.conteiner-Img img {
+    width: 100%;
+    height: 100%;
+}
+
+.About-MDHL {
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 8px darkgoldenrod;
+    padding: 10px;
+    margin: 10px;
+    /* Se encuentra list */
+}
+
+.About-MDHL h3 {
+    font-size: 30px;
+    color: #FFBA14;
+    -webkit-text-stroke: 1.1px black;
+    margin: 2px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.About-MDHL p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+
+/* ---------------------------*/
+/* Texto del MAIN(HOME HTML) */
+
+.Home-MDHL {
+    padding: 10px;
+    margin: 10px;
+    border: 3px outset darkred;
+    box-shadow: 2px 2px 8px 8px black;
+}
+
+.Home-MDHL h3 {
+    font-size: 25px;
+    color: darkred;
+    margin: 2px;
+    padding: 5px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+.Home-MDHL p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ------------------------------ */
+/* Texto del MAIN(CONTACT) */
+
+.contact {
+    padding: 10px;
+    margin: 10px;
+    border: 3px outset darkcyan;
+    box-shadow: 2px 2px 8px 8px black;
+}
+
+.contact p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* ----------------------- */
+/* Estilo de RULES Y LIST */
+
+.list-Rules {
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffff81;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 8px black;
+}
+
+.list-Rules h3,
+p,
+ul,
+ol {
+    font-size: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.list {
+    margin: 10px;
+}
+
+.list li {
+    font-size: 20px;
+    text-align: left;
+    margin: 2px;
+    padding: 5px;
+
+
+}
+
+
+.list2 ol {
+    list-style-type: lower-alpha;
+}
+
+.text {
+    margin: 2px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Estilo de la tabla GAMEINFO */
+
+caption strong {
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+    color: #c63637;
+    -webkit-text-stroke: 1px black;
+    /* list */
+}
+
+table,
+th,
+td {
+    border: 1px solid #c63637;
+    border-collapse: collapse;
+    margin: 10px 10px 10px 10px;
+    /* list */
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /* list */
+}
+
+td,
+th {
+    padding: 5px;
+    /* list */
+}
+
+td {
+    text-align: center;
+    /* list */
+}
+
+footer {
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    /* Ya esta list */
+}
+
+/* -----  */
+/* Mapas */
+
+.maps h3 {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    background-color: #ffff81;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.maps iframe {
+    margin: 15px;
+}
